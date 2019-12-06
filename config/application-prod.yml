@@ -1,15 +1,10 @@
 spring:
   application:
-    name: hello-spring-cloud-web-admin-feign
-  thymeleaf:
-    cache: false
-    mode: LEGACYHTML5
-    encoding: UTF-8
-    servlet:
-      content-type: text/html
+    name: web-admin-feign
+
 
 server:
-  port: 8766
+  port: 8765
 
 feign:
   hystrix:
